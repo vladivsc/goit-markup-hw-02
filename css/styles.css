@@ -107,8 +107,8 @@ line-height: 1.71;
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--hero-text-color);
-  color: var(--accent-color);
+  background-color: #188CE8;
+  color: var(--hero-text-color);
 }
 
 /* Секция Особенности */
