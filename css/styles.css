@@ -1,7 +1,7 @@
 :root {
-  --main-backround-color: #fff;
-  --secondary-backround-color: #f5f4fa;
-  --hero-footer-backround-color: #2f303a;
+  --main-bg-color: #fff;
+  --secondary-bg-color: #f5f4fa;
+  --hero-footer-bg-color: #2f303a;
 
   --header-text-color: #212121;
   --main-text-color: #757575;
@@ -10,7 +10,7 @@
   --accent-color: #2196f3;
 }
 body {
-  background-color: var(--main-backround-color);
+  background-color: var(--main-bg-color);
   color: var(--main-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -78,7 +78,7 @@ line-height: 1.71;
 
 /* Секция Герой */
 .hero {
-  background-color: var(--hero-footer-backround-color);
+  background-color: var(--hero-footer-bg-color);
 }
 
 .hero-title {
@@ -140,7 +140,7 @@ line-height: 1.71;
 
 /* Секция "Наша команда" */
 .team {
-  background-color: var(--secondary-backround-color);
+  background-color: var(--secondary-bg-color);
 }
 
 .team-card {
@@ -164,7 +164,7 @@ line-height: 1.71;
 /* Галерея */
 .gallery-button {
   color: var(--header-text-color);
-  background-color: var(--secondary-backround-color);
+  background-color: var(--secondary-bg-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -196,5 +196,5 @@ line-height: 1.71;
 
 /* Футер */
 .footer {
-  background-color: var(--hero-footer-backround-color);
+  background-color: var(--hero-footer-bg-color);
 }
